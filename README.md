@@ -8,9 +8,11 @@ Deep learning model using Convolutional Neural Networks (CNN) to classify chest 
 
 ## Setup Instructions
 
-### 1. Install Dependencies
+### 1. Create Virtual Environment to Install Dependencies
 ```bash
-pip install tensorflow numpy matplotlib seaborn scikit-learn
+python -m venv venv
+.\venv\Scripts\activate.bat
+pip install -r requirements.txt
 ```
 
 ### 2. Download Dataset
