@@ -24,7 +24,10 @@ pip install -r requirements.txt
 ### 3. Expected Directory Structure
 ```
 CECS-456-Project/
+├── venv/                    # Virtual environment (ignored by git)
+├── requirements.txt
 ├── CECS_456_Pneumonia_CNN.ipynb
+├── Model2_CECS_456_Pneumonia_CNN.ipynb
 ├── README.md
 └── chest_xray/              # Dataset folder (not in git)
     ├── train/
