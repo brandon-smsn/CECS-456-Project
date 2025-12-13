@@ -125,9 +125,10 @@ python Model1_CECS_456_Pneumonia_CNN.py
 - Binary classification output (Sigmoid activation)
 
 ## Model 2 Architecture
-- 3 Convolutional Blocks with BatchNormalization
-- MaxPooling and Dropout layers for regularization
-- Dense layers with 256 and 128 units
+- 4 Convolutional Blocks with BatchNormalization and increasing filter sizes (32, 64, 128)
+- MaxPooling, AveragePooling and Dropout layers for regularization
+- Progressive Dropout regularization (0.1 -> 0.15 -> 0.25 -> 0.25)
+- Single Dense layer with 256 units (ReLU activation)
 - Binary classification output (Sigmoid activation)
 
 ## Dataset
